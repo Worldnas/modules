@@ -13,7 +13,7 @@ console.log()*/
 };
 obj.error();*/
 
-var  lib = lib || {};
+/*var  lib = lib || {};
 lib.output=(function(){
 	return{
 	add : function (x,y){
@@ -32,4 +32,29 @@ lib.output=(function(){
 	
 	
           }
+}());*/
+
+
+
+
+
+
+
+var ktb = ktb || {};
+ktb.output=(function(){
+   	return{
+		add : function (m,n){
+			return m+n
+		},
+		mult : function (m,n){
+			return m*n
+		},
+		minus : function (m,n){
+			return m-n
+		},
+		div : function (m,n){
+			return m/n
+		},
+
+	}
 }());
